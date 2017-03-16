@@ -28,4 +28,4 @@ def detail(row_id):
 
 if __name__ == '__main__':
     #Run Flask test server
-    app.run(debug=True, use_reloader=True)
+    app.run(debug=True, use_reloader=True, host='0.0.0.0')
